@@ -352,29 +352,6 @@ em, i {
   align-items: center;
 }
 
-/* Scholar Eyebrow / Category */
-.scholar-eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 12px;
-}
-
-.scholar-eyebrow .eyebrow-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--gold-accent);
-}
-
-.scholar-eyebrow .eyebrow-text {
-  font-family: var(--primary-font);
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: var(--gold-accent);
-}
 
 .scholar-headline {
   font-family: var(--primary-font);
@@ -446,96 +423,6 @@ em, i {
   color: #1e2e4a;
 }
 
-/* Research Areas / Focus Chips */
-.research-tags-wrap {
-  margin-top: 22px;
-  padding-top: 18px;
-  border-top: 1px solid #f0eee9;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.tags-label {
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #777777;
-  margin-right: 4px;
-}
-
-.academic-chip {
-  display: inline-block;
-  font-family: var(--primary-font);
-  font-size: 13.5px;
-  font-weight: 600;
-  color: var(--navy-dark);
-  background: #f4f6fa;
-  border: 1px solid #e1e7f0;
-  padding: 4px 12px;
-  border-radius: 20px;
-  transition: all 0.2s ease;
-}
-
-.academic-chip:hover {
-  background: var(--navy-dark);
-  color: #ffffff;
-  border-color: var(--navy-dark);
-}
-
-/* Action Buttons */
-.hero-action-buttons {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  margin-top: 24px;
-  flex-wrap: wrap;
-}
-
-.btn-classic-primary {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: var(--navy-dark);
-  color: #ffffff !important;
-  font-family: var(--primary-font);
-  font-size: 15px;
-  font-weight: 700;
-  padding: 10px 24px;
-  border-radius: 3px;
-  text-decoration: none !important;
-  box-shadow: 0 2px 6px rgba(30, 46, 74, 0.2);
-  transition: all 0.2s ease;
-}
-
-.btn-classic-primary:hover {
-  background: #0c44c2;
-  box-shadow: 0 4px 12px rgba(12, 68, 194, 0.25);
-  transform: translateY(-1px);
-}
-
-.btn-classic-secondary {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: #ffffff;
-  color: var(--link-color) !important;
-  font-family: var(--primary-font);
-  font-size: 15px;
-  font-weight: 700;
-  padding: 9px 20px;
-  border: 1.5px solid var(--link-color);
-  border-radius: 3px;
-  text-decoration: none !important;
-  transition: all 0.2s ease;
-}
-
-.btn-classic-secondary:hover {
-  background: var(--link-color);
-  color: #ffffff !important;
-}
 
 /* ──────────────────────────────────────────────────────────
    RIGHT COLUMN: PORTRAIT & CREDENTIAL CARD
@@ -572,71 +459,6 @@ em, i {
   display: block;
 }
 
-/* Credential Badge Card */
-.scholar-info-badge {
-  width: 100%;
-  background: #faf9f6;
-  border: 1px solid #e8e4d8;
-  border-radius: 4px;
-  padding: 16px 14px;
-  text-align: center;
-}
-
-.badge-name {
-  font-family: var(--primary-font);
-  font-size: 17px;
-  font-weight: 700;
-  color: var(--navy-dark);
-  margin-bottom: 3px;
-}
-
-.badge-title {
-  font-size: 13px;
-  color: #666666;
-  line-height: 1.4;
-  margin-bottom: 12px;
-}
-
-.badge-divider {
-  height: 1px;
-  background: #e4dfd4;
-  margin: 10px 0;
-}
-
-/* Mini Links */
-.badge-links {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.badge-link-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--navy-dark) !important;
-  background: #ffffff;
-  border: 1px solid #dcd7cb;
-  padding: 4px 10px;
-  border-radius: 3px;
-  text-decoration: none !important;
-  transition: all 0.2s ease;
-}
-
-.badge-link-pill:hover {
-  background: var(--navy-dark);
-  color: #ffffff !important;
-  border-color: var(--navy-dark);
-}
-
-.badge-link-pill svg {
-  width: 13px;
-  height: 13px;
-  fill: currentColor;
-}
 
 /* ──────────────────────────────────────────────────────────
    CLASSIC AFFILIATIONS SECTION (Showcase strip)
@@ -1388,9 +1210,6 @@ em, i {
     padding: 10px 16px;
   }
 
-  .site-logo-img {
-    height: 44px;
-  }
 
   .home-hero-section {
     padding: 24px 0 16px;
